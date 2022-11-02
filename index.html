@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário programador</title>
+</head>
+<body>
+    
+    <section class="container">
+        <div class="content">
+
+            <h1>Formulário do programador</h1>
+            <form class="form">
+                <p>
+                    <label for="name">Qual é o seu nome?</label>
+        
+                    <input type="text" id="name" name="name" placeholder="Nome">
+                </p>
+
+                <p>
+                    <label for="age">Qual a sua idade? </label>
+
+                    <input type="text" id="age" name="age" placeholder="Idade">
+                </p>
+
+                <p>
+                    <label for="email">Qual o seu email? </label>
+
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </p>
+
+                <p>
+                    <label for="email">Ensira sua senha </label>
+
+                    <input type="password" id="password" name="passwords" placeholder="Senha">
+                </p>
+
+                <p>
+                    <legend>Você gosta de estudar programação?</legend>
+
+                    <input type="radio" value="Sim" id="Sim" name="like-program"><label id="likeProgramming" for="Sim">Sim</label>
+                    <input type="radio" value="Não" id="Não" name="like-program"><label id="likeProgramming" for="Não">Não</label>
+                </p>
+
+                
+                <p>
+                    <label>Você está procurando emprego?</label>
+                    <br>
+
+                    <input type="radio" value="Sim" id="sim2" name="jobBrowsing"><label for="sim2">Sim</label>
+                    <input type="radio" value="Não" id="Não2" name="jobBrowsing"><label for="Não2">Não</label>
+                </p>
+
+                <p>
+                    <label id="linguagem_vc_gosta">Quais destas linguagem de programação você mais gosta?</label>
+
+                    <br>
+
+                    <input type="checkbox" value="Java" name="languages-develop" id="Java"><label id="check" for="Java">Java</label>
+                    <input type="checkbox" value="JavaScript" name="languages-develop" id="JavaScript"><label id="check" for="JavaScript">JavaScript</label>
+                    <input type="checkbox" value="C++" name="languages-develop" id="C++"><label id="check" for="C++">C++</label>
+                    <input type="checkbox" value="Angular" name="languages-develop" id="Angular"><label id="check" for="Angular">Angular</label>
+                    <input type="checkbox" value="C#" name="languages-develop" id="C#"><label id="check" for="C#">C#</label>
+                    
+                    <input type="checkbox" value="Node.js" name="languages-develop" id="Node.js"><label id="check" for="Node.js">Node.js</label>
+                    <input type="checkbox" value="Assembly" name="languages-develop" id="Assembly"><label id="check" for="Assembly">Assembly</label>
+                    <input type="checkbox" value="PHP" name="languages-develop" id="PHP"><label id="check" for="PHP">PHP</label>
+                    <input type="checkbox" value="Html-e-Css" name="languages-develop" id="Html-e-Css"><label id="check" for="Html-e-Css">Html e Css</label>
+
+                </p>
+                
+
+                <p>
+                    <label>Qual o seu nível de escolaridade?</label>
+                    <select name="college">
+                        <option value="---- Selecione ----">---- Selecione ----</option>
+                        <option value="Ensino fundamental incompleto">Ensino fundamental incompleto</option>
+                        <option value="Ensino fundamental completo">Ensino fundamental completo</option>
+                        <option value="Ensino médio incompleto">Ensino médio incompleto</option>
+                        <option value="Ensino médio completo">Ensino médio completo</option>
+                        <option value="Ensino superior incompleto">Ensino superior incompleto</option>
+                        <option value="Ensino superior completo">Ensino superior completo</option>
+                    </select>
+                </p>
+
+                <button onclick="saveInfo()" type="button">Confirmar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="script.js" defer></script>
+
+    
+</body>
+</html>

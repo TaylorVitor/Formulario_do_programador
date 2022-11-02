@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vh;
+    background-image: url(./imagem/bg3.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 65%;
+
+}
+
+.content {
+    width: 32%;
+    height: 105%;
+    background-color: rgb(76, 0, 255);
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-top: 32%;
+    margin-bottom: 32%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 3px solid white;
+    box-shadow: 0 0  7px rgb(0, 0, 0);
+}
+
+h1 {
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+    left: 60px;
+    margin-bottom: 20px;
+}
+
+/* Os inputs do nome,idade,email,senha */
+#name,
+#age,#email,
+#password,
+#programar {
+    padding: 5px;
+    background-color: white;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 140, 255);
+    border-radius: 10px;
+}
+
+input {
+    margin: 9px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: rgb(40,9,121);
+    background: linear-gradient(90deg, rgba(40,9,121,1) 35%, rgba(0,67,255,1) 100%);
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: rgb(40,9,121);
+    background: radial-gradient(circle, rgba(40,9,121,1) 35%, rgba(0,67,255,1) 100%);
+}
+
+p{
+    margin: 4px;
+}
+
+  
+select{
+    margin-top: 1px;
+    padding: 5px;
+}
+
+/*Você gosta de estudar programação?*/
+legend {
+    text-align: center;
+}
+
+/* as linguagem de programação */
+#linguagem_vc_gosta {
+    position: relative;
+    text-align: center;
+
+}
+
+/* linguagem de programação tambem */
+#check {
+    margin: -8px;
+}
